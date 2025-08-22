@@ -2,7 +2,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #090C02;
 }
 
 @theme inline {
@@ -14,13 +14,29 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0f1403;
+    --foreground: #fff;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Javanese Text", sans-serif;
+}
+
+.card_color{
+  color: #090C02;
+  background-color: #BBC5AA;
+}
+
+.card_color:hover{
+  color: #090C02;
+  background-color: #BBC5AA;
+  opacity: 0.9;
+  cursor: pointer
+}
+
+.card_text{
+  font-size: 1.25rem;
 }
